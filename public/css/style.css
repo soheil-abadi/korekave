@@ -1,0 +1,35 @@
+/* font */
+@font-face {
+  font-family: "iranSans";
+  src: url("../fonts/iranSans.eot") format("embedded-opentype"),
+    url("../fonts/iranSans.woff") format("woff"),
+    url("../fonts/iranSans.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+body * {
+  font-family: iranSans;
+  font-size: 14px;
+  -webkit-print-color-adjust: exact !important;
+  /* Chrome, Safari 6 – 15.3, Edge */
+  color-adjust: exact !important;
+  /* Firefox 48 – 96 */
+  print-color-adjust: exact !important;
+}
+
+.borderRadius-15 {
+  border-radius: 15px;
+}
+
+.shadow {
+  box-shadow: 0 0 6px 0px;
+}
+
+.background-img {
+  background-image: url(../../src/img/login-background-img/KavehGlass_1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
